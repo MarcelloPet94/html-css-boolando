@@ -57,6 +57,10 @@
     overflow: hidden;
 }
 
+.prod_info span:nth-child(1) {
+    font-size: 13px;
+}
+
 .prod_info h3 {
     line-height: 24px;
     text-transform: uppercase;
