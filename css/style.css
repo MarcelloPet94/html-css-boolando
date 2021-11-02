@@ -29,10 +29,18 @@
     padding: 0 8px;   
 }
 
+.img_cont {
+    position: relative;
+}
+
 .img_cont img {
     position: relative;
     width: 100%;
     z-index: 3;
+}
+
+.img_cont:hover img:nth-child(1) {
+    visibility: hidden;
 }
 
 .img_cont img:nth-child(2) {
@@ -44,7 +52,7 @@
 
 .img_cont > div {
     position: absolute;
-    bottom: 113px;
+    bottom: 24px;
     z-index: 4;
 }
 
