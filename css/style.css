@@ -7,10 +7,9 @@
 
 .container {
     position: relative;
-    margin: 0 auto;
+    margin: 16px auto;
     width: 969px;
     height: auto;
-    background-color: beige;
 }
 
 .wish {
@@ -27,18 +26,31 @@
     position: relative;
     top: 0;
     width: 320px;
-    background-color: cadetblue;
     padding: 0 8px;   
 }
 
-.container > div img {
+.img_cont img {
     position: relative;
     width: 100%;
     z-index: 3;
 }
 
+.img_cont > div {
+    position: absolute;
+    bottom: 113px;
+    z-index: 4;
+}
+
+.img_cont > div span {
+    padding: 4px 8px;
+    color: #ffffff;
+}
+
+.sale {background-color:#eb0037;}
+.sust {background-color:#00875a;}
+
 .prod_info {
     padding-top: 4px;
-    height: 80px;
+    height: 94px;
 }
 
